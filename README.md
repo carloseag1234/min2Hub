@@ -17,3 +17,29 @@ Tools for the construction of the app:
 * Javascript
 ### DataBase
 * XAMPP & MySQL
+
+#### Views
+>
+> Profile
+>
+> Home
+>* Brand
+>* About us
+>* Info
+>* How does it work
+>* Description
+>* Statistics
+>* Benefits
+>
+> Orders
+>* Order ID
+>* Copy and paste and products but show only our orders and % to get them done
+>* Order progress
+>* Estimated date of arriving
+>* Delivery location
+>
+> Products
+>* What's there
+>* Offer / Catalog and orders in processProgress of the order
+
+
