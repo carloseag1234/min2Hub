@@ -1,0 +1,95 @@
+body > section{
+    width: 250px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2.5rem;
+    background-color: #f0f2e7;
+    padding: 22px;
+}
+
+section h3{
+    font-family: 'Righteous', cursive;
+    color: #7e7e7e;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 0;
+}
+
+section button span{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('descripción.svg');
+}
+section > img{
+    width: 250px;
+    height: 160px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    border: #4e8163 5px;
+}
+
+.descriptionButton{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    background-color: #d4cda8;
+    border: none;
+    padding: 0;
+}
+
+.shopingCartButton{
+    width: 180px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-family: 'Righteous', cursive;
+    font-size: 0.9rem;
+    color: #f0f2e7;
+    background-color: #4e8163;
+    border: none;
+    padding: 0;
+}
+
+section p {
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive; ;
+    color: #7e7e7e;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.progressBar{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    border-radius: 2rem;
+    background-color: #d4cda8;
+}
+
+.currentProgress{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    border-radius: 2rem;
+    background-color: #326558;
+}
+
+.bottomPart{
+    width: 250px;
+    display: flex;
+    justify-content: space-between
+}
