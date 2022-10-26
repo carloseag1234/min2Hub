@@ -9,6 +9,11 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    text-align: left;
+    padding: 70ppx;
+}
+
 .nav > li {
     float:left;
 }
