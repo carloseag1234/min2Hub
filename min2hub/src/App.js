@@ -1,15 +1,21 @@
 import './App.css';
-//import { Footer } from './components/Footer';
-//import { Menu } from './components/Menu';
-//import { Home } from './components/Home';
-import { TarjetaInd } from './components/TarjetaInd';
-//import { Products } from './components/Products';
-//import { Pedidos } from './components/Pedidos';
+import { Routes, Route } from "react-router-dom";
+import Home from './components/Home/Home';
+import  TarjetaInd  from './components/TarjetaInd/TarjetaInd';
+import  Products  from './components/Products/Products';
+import  Pedidos  from './components/Pedidos/Pedidos';
 
 function App() {
   return (
     <div className="App">
-      <TarjetaInd />
+      <h1>Welcome to React Router!</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/tarjetaInd" element={<TarjetaInd />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/pedidos" element={<Pedidos />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
