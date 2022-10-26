@@ -1,0 +1,18 @@
+
+.Footer{
+    background-color: #4F8163;
+    position: absolute;
+    margin-top: 1em;
+
+}
+
+.Logo{
+    text-align: left;
+    padding: 70;
+}
+
+.Text{
+    text-align: right;
+    padding: 70;
+}
+
