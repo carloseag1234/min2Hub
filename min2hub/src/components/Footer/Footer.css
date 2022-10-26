@@ -1,6 +1,6 @@
 
 .Footer{
-    background-color: #4F8163;
+    background-color: #326558;
     position: absolute;
     margin-top: 1em;
 
@@ -8,11 +8,11 @@
 
 .Logo{
     text-align: left;
-    padding: 70;
+    padding: 70px;
 }
 
 .Text{
     text-align: right;
-    padding: 70;
+    padding: 70px;
 }
 
