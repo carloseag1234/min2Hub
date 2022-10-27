@@ -7,7 +7,7 @@
     bottom:0.5%;
     right:0.5%;
   
-    background: #316CB0;
+    background: #4F8163;
   
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  
     border-radius: 50px;
@@ -53,7 +53,7 @@
   }
   
   .addProductButton:hover {
-    background-color: #28588f;
+    background-color: #336559;
     transition: 0.2s;
   }
   
@@ -139,7 +139,7 @@
   input[type='submit'] {
     font: inherit;
     padding: 10px;
-    background-color: #003699;
+    background-color: #4F8163;
     color: white;
     border-radius: 8px;
     border: none;
