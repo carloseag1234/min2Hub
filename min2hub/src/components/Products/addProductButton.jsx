@@ -21,7 +21,7 @@ const AddProductButton = () => {
     const onChange = e => {
         // Actualizamos para los diferentes tipos de datos recopilados
         setProduct({...product, [e.target.name]:e.target.value}); 
-        console.log(e.target.value)
+        //console.log(e.target.value)
     }
     const onSubmit = e => {
         e.preventDefault();
@@ -34,8 +34,10 @@ const AddProductButton = () => {
                 addToDB(product);
                 close();
                 resetForm();
+                console.log('Producto añadido exitosamente')
                 //alert.success('Producto añadido exitosamente');
             } catch (error) {
+                console.log(error.response.data.msg)
                 //alert.error(error.response.data.msg);
             }
             
@@ -79,7 +81,7 @@ const AddProductButton = () => {
 
     const addToDB = (product) => {
         console.log(JSON.stringify(product));
-        fetch("/addProduct", {
+        fetch("./addProduct", {
           method: 'POST',
           headers:{
             'Content-type': 'application/json; charset=UTF-8'
@@ -90,11 +92,11 @@ const AddProductButton = () => {
 
     return(
         <section>
-            <a href="#" class='addProductButton' onClick={open}></a>
-            <div class = "modal-container">
-                <div class = "modal modal-close">
-                    <a class = "close" onClick={close}>X</a>
-                    <div class = "modal-text">
+            <a href="#" className='addProductButton' onClick={open}></a>
+            <div className = "modal-container">
+                <div className = "modal modal-close">
+                    <a className = "close" onClick={close}>X</a>
+                    <div className = "modal-text">
                         <h2 className='header'>Agregar nuevo producto</h2>
                         <form id = "formulario" onSubmit={onSubmit}>
                             <div className='grid-2'>
