@@ -92,7 +92,7 @@ const AddProductButton = () => {
 
     return(
         <section>
-            <a href="#" className='addProductButton' onClick={open}></a>
+            <a href="#" className='addProductButton' onClick={open}>.</a>
             <div className = "modal-container">
                 <div className = "modal modal-close">
                     <a className = "close" onClick={close}>X</a>
