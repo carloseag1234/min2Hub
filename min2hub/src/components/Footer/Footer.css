@@ -1,18 +1,27 @@
 
 .Footer{
     background-color: #326558;
-    position: absolute;
     margin-top: 1em;
-
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
 }
 
 .Logo{
+    width: 50%;
     text-align: left;
-    padding: 70px;
+    padding: 15px;
 }
 
 .Text{
+    width: 50%;
     text-align: right;
-    padding: 70px;
+    margin: auto;
+    color: #fff;
+    text-align: right;
+    padding: 30px;
+}
+img{
+    width: 15%;
 }
 
