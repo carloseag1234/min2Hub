@@ -6,6 +6,7 @@ import  Products  from './components/Products/Products';
 import  Pedidos  from './components/Pedidos/Pedidos';
 import Footer from "./components/Footer/Footer";
 import Menu from './components/Menu/Menu';
+import SignIn from './components/Perfil/Perfil';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/tarjetaInd" element={<TarjetaInd />} />
         <Route path="/products" element={<Products />} />
         <Route path="/pedidos" element={<Pedidos />} />
+        <Route path='/perfil' element={<SignIn/>} />
       </Routes>
       <Footer/>
     </div>
