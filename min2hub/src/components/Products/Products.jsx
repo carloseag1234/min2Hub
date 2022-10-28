@@ -1,6 +1,7 @@
 import React from "react";
 import './estilo.css';
 import cajaComida from '../../img/cajaDeComida.png';
+import Footer from "../Footer/Footer";
 
 function Products() {
     return (
@@ -17,6 +18,7 @@ function Products() {
               <button class="descriptionButton"><span></span></button>
           </section>
         </section>
+        <Footer/>
       </div>
     );
   }
