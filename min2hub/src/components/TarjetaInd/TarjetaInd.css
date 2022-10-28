@@ -1,52 +1,155 @@
-/* Popup container */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  /* The actual popup (appears on top) */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-  
-  /* Popup arrow */
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(15, 73, 19);
-  }
-  
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-  }
-  
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+.leftSide{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+
+.leftSide h1{
+  font-family: 'Righteous', cursive;
+  color: #7e7e7e;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.leftSide p{
+  font-family: 'Righteous', cursive;
+  color: #7e7e7e;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.productInfo{
+  display: flex;
+  width: inherit;
+  height: 20%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.productInfo section{
+  display: flex;
+  align-items: center;
+}
+.productInfo section h3{
+  font-family: 'Righteous', cursive;
+  color: #326558;
+  font-size: 1.5rem;
+  margin: 0;
+  margin-right: 15px;
+}
+.productInfo section p{
+  font-family: 'Righteous', cursive;
+  color: #7e7e7e;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.popupCard{
+  width: 1300px;
+  height: 680px;
+  padding: 50px;
+  display: flex;
+  background-color: #f0f2e7;
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.rightSide{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.rightSide img{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  border-radius: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+}
+
+.rightSide button{
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #326558;
+  border: none;
+}
+
+.rightSide button span{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("exit.svg");
+}
+.descriptionButton{
+  width: 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  background-color: #d4cda8;
+  border: none;
+  padding: 0;
+}
+
+.descriptionButton span{
+  display: inline-block;
+  width: 25px;
+  height: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("descripción.svg");
+}
+.shopingCartButton{
+  width: 280px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-family: 'Righteous', cursive;
+  font-size: 1.4rem;
+  color: #f0f2e7;
+  background-color: #4e8163;
+  border: none;
+  padding: 0;
+}
+
+.progressBar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-radius: 2rem;
+  background-color: #d4cda8;
+}
+
+.currentProgress{
+  width: 50%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  border-radius: 2rem;
+  background-color: #326558;
+}
+
+.bottomPart{
+  width: 60%;
+  display: flex;
+  justify-content: space-between
+}
