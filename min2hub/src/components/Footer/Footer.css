@@ -1,0 +1,27 @@
+
+.Footer{
+    background-color: #326558;
+    margin-top: 1em;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Logo{
+    width: 50%;
+    text-align: left;
+    padding: 15px;
+}
+
+.Text{
+    width: 50%;
+    text-align: right;
+    margin: auto;
+    color: #fff;
+    text-align: right;
+    padding: 30px;
+}
+img{
+    width: 15%;
+}
+

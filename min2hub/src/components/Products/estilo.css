@@ -1,12 +1,19 @@
-.Products > section{
-    width: 250px;
-    height: 380px;
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 2.5rem;
+    border-radius: 10px;
     background-color: #f0f2e7;
-    padding: 22px;
+    padding: 5px;
 }
 
 section h3{
@@ -92,4 +99,7 @@ section p {
     width: 250px;
     display: flex;
     justify-content: space-between
+}
+.footer{
+    width: 100%;
 }
