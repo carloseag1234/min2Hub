@@ -1,0 +1,111 @@
+.startSection{
+    width: 100vw;
+    box-sizing: border-box;
+    height: 80vh;
+    padding: 70px;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.startSection h1{
+    width: 35%;
+    display: flex;
+    margin: 0 ;
+    text-align: end;
+    color: #326558;
+    font-family: 'Righteous', cursive;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.startSection p{
+    width: 30%;
+    margin: 0 ;
+    display: flex;
+    text-align: end;
+    color: #4F8163;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+}
+
+.information{
+    margin-top: 80px;
+    padding-right: 70px;
+    padding-left: 70px;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.information h1{
+    font-family: 'Righteous', cursive;
+    font-size: 3.5rem;
+    color: #336559;
+}
+
+.information p{
+    width: 48%;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    text-align: end;
+    color: #7E7E7E;
+}
+
+.information img{
+    width: 45%;
+    height: 70vh;
+    object-fit: contain;
+}
+
+.information section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.information.QS img{
+    width: 45%;
+    height: 70vh;
+    border-radius: 1000px 400px 1000px 400px;
+    object-fit: contain
+}
+
+.information.QS p{
+    text-align: left;
+}
+
+.information.CEO{
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.information.CEO h3{
+    display: flex;
+    margin-top: 20px;
+    color: #336559;
+}
+
+.information.CEO img{
+    width: 30%;
+}
+
+.information.CEO section{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.information.CEO p{
+    width: 100%;
+}
