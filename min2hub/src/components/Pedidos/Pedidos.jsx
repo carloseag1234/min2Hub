@@ -28,7 +28,7 @@ function Pedidos() {
         </section>
         <section class="bottomPart">
             <button class="shopingCartButton">Agregar al carro</button>
-            <button class="descriptionButton"><span></span></button>
+            <button class="descriptionButton"><span><a className="aPedido" href="/tarjetaInd"></a></span></button>
         </section>
       </section>
       <section>
@@ -40,7 +40,7 @@ function Pedidos() {
         </section>
         <section class="bottomPart">
             <button class="shopingCartButton">Agregar al carro</button>
-            <button class="descriptionButton"><span></span></button>
+            <button class="descriptionButton"><span><a className="aPedido" href="/tarjetaInd"></a></span></button>
         </section>
       </section>
       <section>
@@ -52,7 +52,7 @@ function Pedidos() {
         </section>
         <section class="bottomPart">
             <button class="shopingCartButton">Agregar al carro</button>
-            <button class="descriptionButton"><span></span></button>
+            <button class="descriptionButton"><span><a className="aPedido" href="/tarjetaInd"></a></span></button>
         </section>
       </section>
       <section>
@@ -64,7 +64,7 @@ function Pedidos() {
         </section>
         <section class="bottomPart">
             <button class="shopingCartButton">Agregar al carro</button>
-            <button class="descriptionButton"><span></span></button>
+            <button class="descriptionButton"><span><a className="aPedido" href="/tarjetaInd"></a></span></button>
         </section>
       </section>
       
@@ -77,7 +77,7 @@ function Pedidos() {
         </section>
         <section class="bottomPart">
             <button class="shopingCartButton">Agregar al carro</button>
-            <button class="descriptionButton"><span></span></button>
+            <button class="descriptionButton"><span><a className="aPedido" href="/tarjetaInd"></a></span></button>
         </section>
       </section>
       </div>
