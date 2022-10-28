@@ -1,8 +1,8 @@
 .leftSide{
-  width: 55%;
+  width: 55%; /*55%*/
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 50px; /*50px*/
   justify-content: space-between;
 }
 
@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
 }
+
 .productInfo section h3{
   font-family: 'Righteous', cursive;
   color: #326558;
@@ -39,6 +40,7 @@
   margin: 0;
   margin-right: 15px;
 }
+
 .productInfo section p{
   font-family: 'Righteous', cursive;
   color: #7e7e7e;
@@ -47,8 +49,8 @@
 }
 
 .popupCard{
-  width: 1300px;
-  height: 680px;
+  width: 90%;
+  height: 80%;
   padding: 50px;
   display: flex;
   background-color: #f0f2e7;
@@ -94,7 +96,7 @@
   height: 30px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("exit.svg");
+  background-image: url("../../img/exit.svg");
 }
 .descriptionButton{
   width: 100px;
@@ -110,7 +112,7 @@
 
 .descriptionButton span{
   display: inline-block;
-  width: 25px;
+  width: 50%;
   height: 45px;
   background-position: center;
   background-repeat: no-repeat;

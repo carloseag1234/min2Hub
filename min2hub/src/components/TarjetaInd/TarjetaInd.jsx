@@ -1,5 +1,6 @@
 import React from "react";
 import './TarjetaInd.css';
+import caja from '../../img/caja de comida.png';
 
 function TarjetaInd() {
     return (
@@ -32,7 +33,7 @@ function TarjetaInd() {
             </section>
             <section class="rightSide">
                 <button><span></span></button>
-                <img src="caja de comida.png" alt="foto del producto"></img>
+                <img src={caja} alt="foto del producto"></img>
             </section>
           </section>
       </div>
