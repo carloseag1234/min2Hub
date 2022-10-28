@@ -3,7 +3,7 @@ import './estilo.css';
 import p from '../../img/fondo.png';
 import a from '../../img/images33.jpeg';
 import juan from '../../img/Juan.png';
-import AddProductButton from "../Products/addProductButton";
+import min from '../../img/minhub.png';
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
         <section className="information">
           <h1>¿Qué es min2hub</h1>
           <section>
-            <img src={p} alt="business model"></img>
+            <img src={min} alt="business model"></img>
             <p>Nuestra empresa propone una solucion a los locatarios para que tengan la oportunidad de pedir sus productos por mayoreo.
   La pagina ofrece una visualizacion de los productos que se estan pidiendo por otros locatarios y la cantidad que falta para completar el pedido minimo de mayoreo.</p>
           </section>

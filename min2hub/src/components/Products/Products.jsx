@@ -7,7 +7,7 @@ function Products() {
       <div className="Products">
         <h1>Productos</h1>
         <div className="contenedor">
-        <section>
+        <section class="cajaProducto">
           <img src={cajaComida}></img>
           <h3>Caja de viveres</h3>
           <p>Esto es una prueba de lo Que sería un párrafo con una pequeña información……</p>

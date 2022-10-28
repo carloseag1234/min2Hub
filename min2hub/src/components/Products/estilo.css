@@ -30,7 +30,7 @@ section button span{
     height: 15px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('descripción.svg');
+    background-image: url('../../img/descripción.svg');
 }
 section > img{
     width: 250px;
