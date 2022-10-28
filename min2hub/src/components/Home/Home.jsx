@@ -1,18 +1,13 @@
 import React from "react";
-<<<<<<< HEAD
 import './estilo.css';
 import p from '../../img/fondo.png';
 import a from '../../img/images33.jpeg';
 import juan from '../../img/Juan.png';
-=======
 import AddProductButton from "../Products/addProductButton";
-
->>>>>>> ce15aecc34eb15ab270b93970d3668d531ffb562
 
 function Home() {
     return (
       <div className="Home">
-<<<<<<< HEAD
         <section className="startSection">
           <h1>Precio caidos del cielo!</h1>
           <p>Conoce nuestra propuesta de precios bajos para tu negocio</p>
@@ -39,10 +34,6 @@ function Home() {
             <h3>- Juan Salazar Cortez CEO min2hub</h3>
           </section>
         </section>
-=======
-        <h1>Este es un ejemplo de prueba</h1>
-        <AddProductButton />
->>>>>>> ce15aecc34eb15ab270b93970d3668d531ffb562
       </div>
     );
   }
