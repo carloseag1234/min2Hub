@@ -31,7 +31,7 @@ function Home() {
           <img src={juan} alt="business model"></img>
           <section>
             <p>“En min2hub nos interesamos en ofrecer precios bajos a nuestros clientes, al momento de ofrecer pedidos por mayoreo , y así ayudar al planeta”</p>
-            <h3>- Juan Salazar Cortez CEO min2hub</h3>
+            <h3>- Juan José Salazar Cortés CEO min2hub</h3>
           </section>
         </section>
       </div>

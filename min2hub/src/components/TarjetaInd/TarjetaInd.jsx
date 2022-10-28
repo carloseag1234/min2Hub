@@ -5,6 +5,9 @@ import caja from '../../img/cajaDeComida.png';
 function TarjetaInd() {
     return (
       <div className="TarjetaInd">
+        <br></br>
+        <br></br>
+        <br></br>
         <section class="popupCard">
           <section class="leftSide">
               <h1>Nombre</h1>
@@ -28,7 +31,6 @@ function TarjetaInd() {
               </section>
               <section class="bottomPart">
                   <button class="shopingCartButton">Agregar al carro</button>
-                  <button class="descriptionButton"><span></span></button>
               </section>
           </section>
           <section class="rightSide">
@@ -36,6 +38,8 @@ function TarjetaInd() {
               <img src={caja} alt="foto del producto"></img>
           </section>
         </section> 
+        <br></br>
+        <br></br>
       </div>
     );
   }

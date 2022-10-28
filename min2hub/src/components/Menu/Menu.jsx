@@ -11,10 +11,10 @@ function Menu() {
           </div>
           <div className="header">
             <ul className="nav">
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/pedidos">Pedidos</a></li>
-              <li><a href="/products">Productos</a></li>
-              <li><a href="/perfil">Perfil</a></li>
+              <li><a className="aMenu" href="/">Inicio</a></li>
+              <li><a className="aMenu" href="/pedidos">Pedidos</a></li>
+              <li><a className="aMenu" href="/products">Productos</a></li>
+              <li><a className="aMenu" href="/perfil">Perfil</a></li>
             </ul>
           </div>
         </div>
